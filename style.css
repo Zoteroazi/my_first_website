@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.logo, .links1 {
+    margin: 10px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(133, 133, 255);
+    height: 50px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color:white;
+}
+
+.links1 {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    justify-content: center;
+    
+    gap: 20px;
+}
+
+.header2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right2 {
+    background-color: bisque;
+    padding: 20px;
+}
+
+.middle {
+    display:flex;
+    flex-direction: column;
+}
