@@ -93,6 +93,21 @@ a {
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: rgb(122, 122, 122);;
-    padding: 50px;
+    background-color: rgb(122, 122, 122);
+}
+
+.signup2-1{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: blanchedalmond;
+ margin: 60px;
+ border-radius: 20px;
+ padding: 30px;
+}
+
+.footer {
+    background-color: rgb(80, 80, 221);
+    display: flex;
+    justify-content: center;
 }
