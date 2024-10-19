@@ -13,7 +13,7 @@ body {
 
 .header{
     display: flex;
-    background-color: rgb(133, 133, 255);
+    background-color: rgb(40, 40, 148);
     height: 50px;
     color: white;
     justify-content: space-between;
@@ -36,19 +36,63 @@ a {
 .header2 {
     display: flex;
     margin-bottom: 20px;
+    background-color: rgb(27, 27, 63);
+    gap: 200px;
+    
 }
 
 .left2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    color: white;
+    flex-direction: column;
 }
 
 .right2 {
-    background-color: bisque;
-    padding: 20px;
+    background-color: rgb(122, 122, 122);
+    padding: 80px;
+    margin: 50px;
+    margin-left: 150px;
+    color: white;
 }
 
 .middle {
     display:flex;
     flex-direction: column;
+}
+
+#infomid {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.imagesmid1 {
+    display:flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.imagesmid {
+    border-color: rgb(0, 119, 255);
+    border-style: solid;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    border-radius: 30px;
+}
+
+.beschreibung {
+    margin: 20px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(122, 122, 122);;
+    padding: 50px;
 }
