@@ -110,10 +110,11 @@ a {
  display: flex;
  justify-content: space-between;
  align-items: center;
- background-color: blanchedalmond;
+ background-color: #3882F6;
  margin: 60px;
  border-radius: 20px;
  padding: 30px;
+ color: white;
  
 }
 
@@ -126,10 +127,28 @@ a {
 .bot {
     font-weight: bold;
     align-self: flex-end;
+    font-style: normal;
 }
 
 .footer {
-    background-color: rgb(80, 80, 221);
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
+    padding: 30px;
+    color: white;
+}
+
+button {
+    font-weight: bold;
+    color: white;
+    border-style: solid;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#action
+{
+    font-weight: bold;
 }
