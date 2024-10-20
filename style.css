@@ -76,8 +76,9 @@ a {
 
 .imagesmid1 {
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 30px;
+    gap: 40px;
 }
 
 .imagesmid {
